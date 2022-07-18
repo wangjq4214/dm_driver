@@ -3,7 +3,7 @@
  * All rights reserved.
  */
 
-package dm
+package dm_driver
 
 const (
 	IGNORE_TARGET_LENGTH int32 = -1

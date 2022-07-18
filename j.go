@@ -3,7 +3,7 @@
  * All rights reserved.
  */
 
-package dm
+package dm_driver
 
 import "database/sql/driver"
 
@@ -101,7 +101,7 @@ func newDmArrayByTypeData(atData []TypeData, desc *TypeDescriptor) *DmArray {
 }
 
 func (da *DmArray) checkIndex(index int64) error {
-	if index < 0 || index > int64(len(da.m_arrData) - 1) {
+	if index < 0 || index > int64(len(da.m_arrData)-1) {
 		return ECGO_INVALID_LENGTH_OR_OFFSET.throw()
 	}
 	return nil

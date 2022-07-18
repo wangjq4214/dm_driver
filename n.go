@@ -2,13 +2,12 @@
  * Copyright (c) 2000-2018, 达梦数据库有限公司.
  * All rights reserved.
  */
-package dm
+package dm_driver
 
 import (
 	"bytes"
 	"context"
 	"database/sql/driver"
-	"dm/util"
 	"net"
 	"net/url"
 	"os"
@@ -17,6 +16,8 @@ import (
 	"runtime"
 	"strconv"
 	"strings"
+
+	"github.com/wangjq4214/dm_driver/util"
 )
 
 const (

@@ -1,4 +1,4 @@
-module dm
+module github.com/wangjq4214/dm_driver
 
 go 1.13
 

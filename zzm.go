@@ -3,16 +3,17 @@
  * All rights reserved.
  */
 
-package dm
+package dm_driver
 
 import (
 	"bufio"
-	"dm/util"
 	"io"
 	"os"
 	"runtime"
 	"strconv"
 	"strings"
+
+	"github.com/wangjq4214/dm_driver/util"
 )
 
 var LogDirDef, _ = os.Getwd()

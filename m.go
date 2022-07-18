@@ -2,17 +2,19 @@
  * Copyright (c) 2000-2018, 达梦数据库有限公司.
  * All rights reserved.
  */
-package dm
+package dm_driver
 
 import (
 	"bytes"
 	"context"
 	"database/sql"
 	"database/sql/driver"
-	"dm/parser"
 	"fmt"
-	"golang.org/x/text/encoding"
 	"sync/atomic"
+
+	"golang.org/x/text/encoding"
+
+	"github.com/wangjq4214/dm_driver/parser"
 )
 
 type DmConnection struct {

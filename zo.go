@@ -3,7 +3,7 @@
  * All rights reserved.
  */
 
-package dm
+package dm_driver
 
 const (
 	ParamDataEnum_Null = 0

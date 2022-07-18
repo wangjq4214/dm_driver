@@ -3,10 +3,9 @@
  * All rights reserved.
  */
 
-package dm
+package dm_driver
 
 import (
-	"dm/util"
 	"fmt"
 	"math"
 	"strconv"
@@ -14,6 +13,8 @@ import (
 	"time"
 	"unicode"
 	"unicode/utf8"
+
+	"github.com/wangjq4214/dm_driver/util"
 )
 
 type oracleDateFormat struct {

@@ -3,15 +3,16 @@
  * All rights reserved.
  */
 
-package dm
+package dm_driver
 
 import (
 	"context"
 	"database/sql/driver"
-	"dm/util"
 	"reflect"
 	"strconv"
 	"time"
+
+	"github.com/wangjq4214/dm_driver/util"
 )
 
 type logFilter struct{}

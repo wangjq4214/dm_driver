@@ -3,7 +3,7 @@
  * All rights reserved.
  */
 
-package dm
+package dm_driver
 
 type StructDescriptor struct {
 	m_typeDesc *TypeDescriptor

@@ -2,12 +2,13 @@
  * Copyright (c) 2000-2018, 达梦数据库有限公司.
  * All rights reserved.
  */
-package dm
+package dm_driver
 
 import (
-	"dm/util"
 	"strconv"
 	"time"
+
+	"github.com/wangjq4214/dm_driver/util"
 )
 
 var DB2G db2g

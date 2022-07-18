@@ -2,7 +2,7 @@
  * Copyright (c) 2000-2018, 达梦数据库有限公司.
  * All rights reserved.
  */
-package dm
+package dm_driver
 
 import (
 	"database/sql"
@@ -184,7 +184,7 @@ const (
 
 	CURRENCY_SCALE = 4
 
-	FLOAT_SCALE_MASK = 0X81
+	FLOAT_SCALE_MASK = 0x81
 )
 
 func resetColType(stmt *DmStatement, i int, colType int32) bool {

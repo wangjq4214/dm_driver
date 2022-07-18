@@ -2,18 +2,19 @@
  * Copyright (c) 2000-2018, 达梦数据库有限公司.
  * All rights reserved.
  */
-package dm
+package dm_driver
 
 import (
 	"context"
 	"database/sql"
 	"database/sql/driver"
-	"dm/util"
 	"errors"
 	"io"
 	"regexp"
 	"strings"
 	"time"
+
+	"github.com/wangjq4214/dm_driver/util"
 )
 
 const (
